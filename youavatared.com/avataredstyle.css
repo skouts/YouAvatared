@@ -35,7 +35,7 @@ h3 {
   margin-bottom: 0px;
   float: left;
   font-family: Varela, sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 30px;
   font-weight: 700;
 }
@@ -70,13 +70,12 @@ p {
 a:link {
   text-decoration:none;
   color:rgba(61,61,61,0.8);
-  font-size: 24px;
+  font-size: 20px;
   line-height: 30px;
   font-weight: 700;
 }
 a:visited {
   color:rgba(61,61,61,0.8);
-  font-size: 24px;
   line-height: 30px;
   font-weight: 700;
 }
@@ -170,7 +169,13 @@ a:hover {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  float: none;
+  float: center;
+}
+.image1 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  float: left;
 }
 .imagebox {
   position: static;
@@ -201,13 +206,6 @@ a:hover {
   display: block;
   margin: 20px auto -10px;
 }
-.image2 {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 0px;
-  float: none;
-}
 .section-1 {
   margin-top: 25px;
   padding-top: 25px;
@@ -227,9 +225,9 @@ a:hover {
 }
 .section2 {
   float:left;
-  margin-top: 25px;
-  padding-top: 20px;
-  padding-bottom: 500px;
+  padding-top:200px;
+  margin-top: -150px;
+  padding-bottom: 300px;
   width:100%;
   background-color: transparent;
   background-image: url('images/AAbackground.png');
@@ -238,52 +236,69 @@ a:hover {
 .section3 {
   margin-top: 25px;
   margin-right: 0px;
-  padding-top: 20px;
+  padding-top:12%;
   padding-right: 0px;
   padding-bottom: 20px;
 }
 .simplecontainer {
   float:left;
-  padding-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px 20px 25px;
   padding-bottom: 25px;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: rgba(61, 61, 61, 0.8);
 }
 .imagecontainer {
+  float:none;
   display: block;
   margin-right: auto;
-  margin-bottom: 20px;
   margin-left: auto;
+  margin-bottom: 20px;
   padding-top: 20px;
   padding-bottom: 0px;
 }
 .column1 {
-  float:right;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 10px;
-}
-.column2 {
   float:left;
   display: block;
   margin-right: auto;
   margin-left: auto;
 }
-.text2 {
+.column2 {
+  float:right;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  float: none;
-  color: #4d4c4c;
-  text-align: center;
+}
+.column3{
+  float: center;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+}
+.column4{
+  float:left;
+  display:block;
+  margin-left:13%;
+  margin-right:auto;
+  
+}
+.column5{
+  float:right;
+  display:block;
+  margin-left:auto;
+  margin-right:13%;
 }
 .text1 {
+  font-family: Varela, sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+  color:rgba(61,61,61,0.9);
   display: block;
   margin-right: auto;
   margin-left: auto;
   float: none;
-  color: black;
   text-align: center;
 }
 .textcontainer {
