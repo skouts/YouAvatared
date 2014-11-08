@@ -361,9 +361,17 @@ a:hover {
   float: none;
   }
   .paybutton {
+    float:none;
     position:fixed;
-    margin-top: 15%;
-    margin-left:85%;
+    margin-top:13%;  
+    margin-left:86%;
      color: rgba(61, 61, 61, 0.8);
      font-size:24px;
   }
+.centerbutton {
+  width:200px;
+  margin-right: auto;
+  margin-left: auto;
+  float:none;
+  margin-top:70px;
+}
