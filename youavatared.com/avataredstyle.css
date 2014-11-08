@@ -40,11 +40,8 @@ h3 {
   font-weight: 700;
 }
 h4 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 700;
+  color: rgba(61, 61, 61, 0.8);
+  margin-bottom:0;
 }
 h5 {
   margin-top: 10px;
@@ -227,7 +224,7 @@ a:hover {
   float:left;
   padding-top:200px;
   margin-top: -150px;
-  padding-bottom: 300px;
+  padding-bottom: 200px;
   width:100%;
   background-color: transparent;
   background-image: url('images/AAbackground.png');
@@ -238,7 +235,6 @@ a:hover {
   margin-right: 0px;
   padding-top:12%;
   padding-right: 0px;
-  padding-bottom: 20px;
 }
 .simplecontainer {
   float:left;
@@ -341,8 +337,8 @@ a:hover {
 .sectionzero {
   display: block;
   margin-top: 0px;
-  padding-top: 20px;
-  padding-bottom: 25px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   float: none;
   background-color: #e3e3e3;
 }
@@ -363,4 +359,11 @@ a:hover {
   margin-left: auto;
   padding-top: 0px;
   float: none;
+  }
+  .paybutton {
+    position:fixed;
+    margin-top: 15%;
+    margin-left:85%;
+     color: rgba(61, 61, 61, 0.8);
+     font-size:24px;
   }
